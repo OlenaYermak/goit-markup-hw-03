@@ -1,0 +1,124 @@
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.benefits-title,
+.team-title,
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 36px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+/* ======HEADER====== */
+
+.logotype,
+.footer-logotype {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.studio {
+  color: #2e2f42;
+}
+.menu-link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.menu-contakt-link {
+  color: #434455;
+  font-family: Roboto;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-contakt-link:hover,
+.menu-contakt-link:focus {
+  color: #404bbf;
+}
+.contact {
+  font-style: normal;
+}
+/* ======HERO====== */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: white;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+/* ======BENEFITS====== */
+
+.benefits-list-title,
+.team-list-title,
+.portfolio-list-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.benefits-list-text,
+.team-list-text,
+.portfolio-list-text,
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ======TEAM====== */
+.team {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+
+/* ======PORTFOLIO====== */
+
+/* ======FOOTER====== */
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+.studio-accent {
+  color: #f4f4fd;
+}
