@@ -8,9 +8,28 @@ h1,h2,h3,h4,h5,h6,p{
   margin-top: 0;
   margin-bottom: 0;
 }
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+.section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 img {
   display: block;
 max-width: 100%;
+}
+/* ======CONTAINER ====== */
+.container {
+  width: 1158px;
+  max-width: 100%;
+    padding-left: auto; 
+    padding-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -42,6 +61,15 @@ body {
 .studio {
   color: #2e2f42;
 }
+.main-nav{
+  display: flex;
+}
+.menu {
+display: flex;
+}
+.contact {
+  display: flex;
+}
 .menu-link {
   color: #2e2f42;
   font-weight: 500;
@@ -70,13 +98,21 @@ body {
 /* ======HERO====== */
 .hero {
   background-color: #2e2f42;
+  
+  width: 1440px;
+    
 }
 .hero-title {
+  width: 496px;
   color: white;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+
 }
 .hero-button {
   color: white;
@@ -119,6 +155,16 @@ body {
 }
 
 /* ======PORTFOLIO====== */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48 px;
+}
+.portfolio-list .portfolio-list-item :nth-child(3) {
+  margin-right: 0;
+}
+
 
 /* ======FOOTER====== */
 .page-footer {
@@ -130,3 +176,4 @@ body {
 .studio-accent {
   color: #f4f4fd;
 }
+
