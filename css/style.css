@@ -70,7 +70,6 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -81,6 +80,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .menu {
   display: flex;
@@ -93,6 +93,7 @@ body {
 .contact-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .contact-list-item:last-child {
   margin-right: 0;
@@ -114,7 +115,6 @@ body {
 
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .menu-contakt-link:hover,
