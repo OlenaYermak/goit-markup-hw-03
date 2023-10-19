@@ -67,6 +67,8 @@ body {
   justify-content: space-between;
 padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 15px;
+    padding-right: 15px;
 }
 .page-header {
  
@@ -83,11 +85,13 @@ padding-top: 24px;
 .menu {
 display: flex;
 column-gap: 40px;
+
+}
+.menu-item:last-child {
+    margin-right: 0;
 }
 
-.contact-list:last-child {
-  margin-right: 0;
-}
+
 .contact-list {
   display: flex;
   gap: 40px;
