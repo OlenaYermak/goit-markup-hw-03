@@ -80,7 +80,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  
 }
 .menu {
   display: flex;
@@ -266,9 +266,7 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-list-title {
-  margin-bottom: 8px;
-}
+
 .portfolio-list:nth-child(-n + 6) {
   margin-bottom: 0;
 }
